@@ -41,6 +41,9 @@
   .gamer-img{
     width: 100%;
   }
+  .card{
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (min-width:426px) and (max-width:768px) {
@@ -85,5 +88,8 @@
   }
   .gamer-img{
     width: 100%;
+  }
+  .card{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
