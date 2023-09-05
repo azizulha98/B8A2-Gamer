@@ -85,6 +85,10 @@ header {
   color: #141414;
 }
 
+.nav-item a:hover {
+  color: #F948B2;
+}
+
 .nav-button {
   display: flex;
   justify-content: space-between;
@@ -151,8 +155,6 @@ header {
 main {
   margin: 2rem auto;
   max-width: 1440px;
-  border: 2px solid navajowhite;
-
 }
 
 /* <!-- We are gamer section  --> */
