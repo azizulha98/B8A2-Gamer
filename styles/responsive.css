@@ -74,6 +74,36 @@
     text-align: center;
   }
 
+  /* ----------- */
+  .total-game-content {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 10px;
+  }
+
+  .total-game p {
+    font-size: 10px;
+  }
+
+  .total-game img {
+    width: 20px;
+    height: 20px;
+    margin-right: .2rem;
+  }
+
+  .footer-item {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .footer-term {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .copy {
+    font-size: 8px;
+  }
+
 }
 
 @media screen and (min-width:426px) and (max-width:768px) {
@@ -149,5 +179,35 @@
   .play-description {
     margin: 0 .1rem;
     text-align: center;
+  }
+
+  /* ------------ */
+  .total-game-content {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 10px;
+  }
+
+  .total-game p {
+    font-size: 20px;
+  }
+
+  .total-game img {
+    width: 30px;
+    height: 30px;
+    margin-right: .5rem;
+  }
+
+  .footer-item {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .footer-term {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .copy {
+    font-size: 8px;
   }
 }
