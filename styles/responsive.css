@@ -27,23 +27,53 @@
     width: 100%;
     justify-content: center;
   }
-  .gamer-container{
+
+  .gamer-container {
     flex-direction: column;
   }
-  .gamer-info{
+
+  .gamer-info {
     width: 100%;
     padding: 0 .5rem;
     text-align: center;
   }
-  .gamer-sub-title span{
+
+  .gamer-sub-title span {
     font-size: 1.5rem;
   }
-  .gamer-img{
+
+  .gamer-img {
     width: 100%;
   }
-  .card{
+
+  .card {
     grid-template-columns: 1fr;
   }
+
+  .play-container {
+    flex-direction: column;
+  }
+
+  .play-img {
+    width: 80%;
+  }
+
+  .play-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .play-title {
+    margin: 0 .1rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .play-description {
+    margin: 0 .1rem;
+    text-align: center;
+  }
+
 }
 
 @media screen and (min-width:426px) and (max-width:768px) {
@@ -75,21 +105,49 @@
     justify-content: center;
   }
 
-  .gamer-container{
+  .gamer-container {
     flex-direction: column;
   }
-  .gamer-info{
+
+  .gamer-info {
     width: 100%;
     padding: 0 1rem;
     text-align: center;
   }
-  .gamer-sub-title span{
+
+  .gamer-sub-title span {
     font-size: 2rem;
   }
-  .gamer-img{
+
+  .gamer-img {
     width: 100%;
   }
-  .card{
+
+  .card {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .play-container {
+    flex-direction: column;
+  }
+
+  .play-img {
+    width: 80%;
+  }
+
+  .play-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .play-title {
+    margin: 0 .1rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .play-description {
+    margin: 0 .1rem;
+    text-align: center;
   }
 }

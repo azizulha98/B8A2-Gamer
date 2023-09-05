@@ -213,11 +213,12 @@ main {
   margin: 1.6rem 0;
 }
 
-.card{
+.card {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
+
 .container {
   position: relative;
 }
@@ -255,4 +256,59 @@ main {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* Play Instantly section  */
+.play-container {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.play-info {
+  width: 50%;
+}
+
+.play-title {
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 9rem;
+  margin-right: 4rem;
+
+}
+
+.play-title span {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.play-description {
+  color: #534C64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 9rem;
+  margin-right: 4rem;
+}
+
+.play-img {
+  width: 50%;
+  position: relative;
+}
+
+.font {
+  width: 100%;
+}
+
+.back {
+  position: absolute;
+  bottom: 0;
+  left: -5rem;
+  width: 218px;
+  height: 265px;
 }
